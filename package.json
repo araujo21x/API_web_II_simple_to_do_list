@@ -1,0 +1,19 @@
+{
+  "name": "API_web_II_simple_To_Do_list",
+  "version": "1.0.0",
+  "description": "Api para atividade da disciplina de WEB II",
+  "main": "index.js",
+  "author": "Lucas de Araujo Cirqueira<araujolucas97@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mariadb": "^2.5.2",
+    "nodemon": "^2.0.7",
+    "sequelize": "^6.5.0"
+  }
+}
